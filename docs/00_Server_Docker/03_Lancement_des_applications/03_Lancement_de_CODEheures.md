@@ -24,7 +24,7 @@
    ```
    
    ```vim
-   --- Alias ---
+   #--- Alias ---
    alias l='ls -la | more'
    alias q='cd .. && l'
    alias h='history'
