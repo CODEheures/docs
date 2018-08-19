@@ -17,8 +17,8 @@ alias h='history'
 # docker php, composer, logsnpm, logecho
 # do a choice
 
-source /var/www/0-docker/stacks/selfjob/alias #alias for selfjob
-#source /var/www/0-docker/stacks/codeheures/alias #alias for codeheures
+#source /var/www/0-docker/stacks/selfjob/alias #alias for selfjob
+source /var/www/0-docker/stacks/codeheures/alias #alias for codeheures
 ```
 
 On jouera sur l'activation d'une des 2 dernieres lignes pour acceder aux alias de la stack souhaitée
