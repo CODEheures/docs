@@ -23,3 +23,5 @@ Traefik est un reverse proxy qui permet de gerer le... trafic du server (redirec
    sudo chmod 600 acme.json && \
    docker stack deploy -c traefik-compose.yml traefik
    ```   
+   
+>On peut vérifier le lancement en se rendant sur la page de traefik   
