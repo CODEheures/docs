@@ -12,7 +12,7 @@ Selon le cas il faut mettre à jour les hosts
    192.168.59.128 codeheures.test
    192.168.59.128 api.codeheures.test
    192.168.59.128 adminer.codeheures.test
-   192.168.59.128 server.doc.codeheures.test
+   192.168.59.128 docs.codeheures.test
    192.168.59.128 selfjob.test
    192.168.59.128 api.selfjob.test
    192.168.59.128 echo.selfjob.test
@@ -30,7 +30,7 @@ Selon le cas il faut mettre à jour les hosts
    127.0.0.1 codeheures.test
    127.0.0.1 api.codeheures.test
    127.0.0.1 adminer.codeheures.test
-   127.0.0.1 server.doc.codeheures.test
+   127.0.0.1 docs.codeheures.test
    127.0.0.1 selfjob.test
    127.0.0.1 api.selfjob.test
    127.0.0.1 echo.selfjob.test
