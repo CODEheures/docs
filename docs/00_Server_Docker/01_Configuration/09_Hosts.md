@@ -40,4 +40,4 @@ Selon le cas il faut mettre à jour les hosts
    
 - Cas d'une machine distante
 
-   Rien à faire, les DNS sont externes   
+   Déclarer les adresses IP des Hosts en type A chez le provider du domaine   
