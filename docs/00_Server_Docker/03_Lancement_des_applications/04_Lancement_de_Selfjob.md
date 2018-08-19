@@ -3,8 +3,8 @@
 1. Mise à jour paramètre système pour le service elasticsearch
 
    ```
-   $ cp /var/www/0-docker/server/etc/sysctl.d/elasticsearch.conf /etc/sysctl.d && \
-   sysctl -p /etc/sysctl.d/elasticsearch.conf
+   $ sudo cp /var/www/0-docker/server/etc/sysctl.d/elasticsearch.conf /etc/sysctl.d && \
+   sudo sysctl -p /etc/sysctl.d/elasticsearch.conf
    ```
 
 2. Lancement docker
