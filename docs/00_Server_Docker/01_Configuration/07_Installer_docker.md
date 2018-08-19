@@ -13,7 +13,13 @@
    sudo systemctl enable docker
    ```
 
-3. Si on ne l'a pas fait en prérequis on lance l'outil de test afin de s'assurer que le network overlay fonctionnera correctement:
+3. Il faut déconnecter le compte trucmuche et se reconnecter pour activer le group docker
+
+   ```
+   $ exit
+   ```
+
+4. Si on ne l'a pas fait en prérequis on lance l'outil de test afin de s'assurer que le network overlay fonctionnera correctement:
 
    Télécharger l'outil docker de test ici: <https://docs.docker.com/install/linux/linux-postinstall/#troubleshooting> 
 
