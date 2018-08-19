@@ -7,10 +7,10 @@
 2. En fin d'installation on ajoute le groupe docker à trucmuche et root et on active docker au démarrage
 
    ```
-   $ sudo groupadd docker && \
-   sudo usermod -aG docker trucmuche && \
+   $ sudo groupadd docker
+   $ sudo usermod -aG docker trucmuche && \
    sudo usermod -aG docker root && \
-   systemctl enable docker
+   sudo systemctl enable docker
    ```
 
 3. Si on ne l'a pas fait en prérequis on lance l'outil de test afin de s'assurer que le network overlay fonctionnera correctement:
