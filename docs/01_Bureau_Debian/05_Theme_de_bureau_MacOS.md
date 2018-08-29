@@ -4,15 +4,25 @@ Le theme MacOS sierra est mis en ligne par l'auteur ici: <https://www.gnome-look
 
 A cela il faut aussi télécharger les icones et la font.
 
-Le fichier complet est disponible ici: [fichier de conf theme + icons + font](/resources/macos.tar.gz)
+Les fichiers sont disponible ici: 
 
-1. Extraire le fichier en utilisant le gestionnaire de fichier
+- [fichier theme](/resources/macos/themes.tar.gz)
+- [fichier font ](/resources/macos/fonts.tar.gz)
+- [fichier icons](/resources/macos/icons/MacOSX.tar.gz)
+- [fichier icons dark](/resources/macos/icons/MacOSX-dark.tar.gz)
+- [fichier cursors](/resources/macos/icons/capitaine-cursors.tar.gz)
+
+
+
+1. Extraire les fichiers en utilisant le gestionnaire de fichier
 
    Clic droit -> extraire ici
 
-2. Copier les 3 dossiers "fonts" "icons" "themes" dans /usr/share
+2. Copier les 2 dossiers "fonts" "themes" dans /usr/share
 
-3. Dans le menu de la barre des tâches aller dans
+3. Copier les dossiers icons "MacOSX", "MacOSX-dark" et "capitaine-cursors" dans /usr/share/cursors
+
+4. Dans le menu de la barre des tâches aller dans
    
    - Parametres -> apparence -> style
 
