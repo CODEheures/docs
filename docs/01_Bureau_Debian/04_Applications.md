@@ -7,6 +7,20 @@ Liste des applications supplémentaires à installer (voir les sites web)
 - google chrome
 - opéra
 
+## Augmenter la limit memoire des watches
+Resource trouvée ici: <https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit>
+ ```
+ $ sudo vi /etc/sysctl.d/phpstorm.conf
+ ```
+ 
+ ```vim
+ fs.inotify.max_user_watches = 524288
+ ```
+ 
+ ```
+$ sudo sysctl -p --system
+```
+
 ## Liste des addons/extensions
 
 1. Google chrome
@@ -36,3 +50,4 @@ Liste des applications supplémentaires à installer (voir les sites web)
    - json2ts (Gregor Biswanger)
    - TSLint (egamma)
    - VS Color Picker (lihui)
+       
